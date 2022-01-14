@@ -1,0 +1,237 @@
+
+*{
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+.logo{
+    width:75px;
+    height:auto;
+    padding-left:2px;
+    padding-top:1px;
+}
+
+.signinpic{
+    margin-left:10px;
+    border-left: 1px solid;
+    border-color: gray;
+}
+
+.navlink, .signin{
+   padding-right:20px;
+   padding-top:10px;
+   font-size:10px;
+}
+
+.navlink{
+    border-left: 1px solid;
+    border-color: gray;
+    padding-left:15px;
+}
+
+.signin{
+    margin-right: auto;
+}
+
+#more-options{
+    background-color: black;
+    color:white;
+    font-family:sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    width:100px;
+    height:30px;
+    border-style:none;
+
+}
+.dropdown-more{
+    padding-right:20px;
+    padding-top:0px;
+    padding-left:15px;
+    border-left: 1px solid;
+    border-color: gray;
+
+}
+.profilepic{
+    width:25px;
+}
+
+.searchbar{
+    padding-top:5px;
+    margin-right:5px;
+}
+.wrapper, .welcomebar {
+    display: flex; 
+}
+#text{
+    border-style:none;
+}
+.wrapper input[type="text"] {
+      flex: 1 1 auto;
+ }
+.wrapper{
+    background-color:white;
+}
+.buttonpic{
+     width:20px;
+     height:20px;
+     margin-left:-1px;
+ }
+
+ .welcomebar{
+     height:50px;
+     align-items:flex-end;
+ }
+ .welcome-message{
+     margin-left:5px;
+     font-size:18px;
+     font-weight:bold;
+     color:gray;
+ }
+ .pushleft{
+     margin-left:auto;
+     margin-right:5px;
+     font-size:15px;
+     color: rgb(155, 155, 155);
+ }
+
+ .cards-row1{
+     display:flex;
+     margin-top:10px;
+ }
+
+ .gridright{
+     display:flex;
+     flex-wrap: wrap;
+     flex-shrink:1;
+     justify-content: space-between;
+     align-content: space-between;
+ }
+ .cardleft{
+    background-image: url("./israeluae.jpeg");
+    align-self:flex-end;
+    height:300px;
+    padding-top:180px;
+    padding-left:10px;
+    padding-right:10px;
+    color:white;
+    flex:none; }
+
+.topleftcard, .toprightcard, .bottomleftcard, .bottomrightcard{
+    width:300px;
+    height:145px;
+    background-size:cover;
+    margin-left:10px;
+    margin-top:10px;  
+    flex-grow:1;
+ }
+
+ .topleftcard, .toprightcard{
+    padding-top:55px;
+    padding-left:5px;
+ }
+
+
+ .bottomleftcard, .bottomrightcard{
+    padding-top:75px;
+    padding-left:5px;
+ }
+
+ .topleftcard{
+    background-image: url("./americansgohome.jpeg");
+    align-self:flex-end;
+    color:white;
+ }
+
+ .toprightcard{
+    background-image: url("./vaccine.jpeg");
+    align-self:flex-end;
+    color:white;
+ }
+
+ .bottomleftcard{
+    background-image: url("./productivitygyms.jpeg");
+    align-self:flex-end;
+    color:white;
+ }
+
+ .bottomrightcard{
+    background-image: url("./folksinger.jpeg");
+    align-self:flex-end;
+    color:white;
+ }
+
+ h2{
+     margin-bottom:-6px;
+     -webkit-text-stroke: 1px black;
+ }
+
+ .title-middleeast, .title-health, .title-canada,  .title-culture {
+     padding-left: 7px;
+     font-size: 12px;
+     margin-left:2px;
+     margin-top:-1px;
+ }
+
+ .title-middleeast, .title-health {
+    border-left: solid red;
+ }
+
+ .title-canada {
+    border-left: solid cyan;
+ }
+
+ .title-culture{
+    border-left: solid gray;
+ }
+
+ h3{
+    padding-left: 7px;
+    font-size: 20px;
+    margin-left:2px;
+    margin-top:20px;
+    padding-bottom:0px;
+    border-left: solid red;
+    color:rgb(53, 53, 53);
+ }
+
+ .bottomrow{
+     display:flex;
+     justify-content: center;
+     gap:50px;
+ }
+
+.bottomcards{
+    width:400px;
+}
+
+.rightcard{
+    margin-left: -10px;;
+}
+
+h4{
+    margin-top:5px;
+    color:rgb(41, 41, 41)}
+
+.articledetails-bottom{
+    margin-top:-12px;
+    font-size:13px;
+    color:gray;
+}
+
+.title-bottom{
+     padding-left: 7px;
+     font-size: 12px;
+     margin-left:2px;
+     margin-top:12px;
+     border-left: solid red;
+     color:gray;
+}
